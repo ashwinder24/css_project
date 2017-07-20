@@ -1,13 +1,13 @@
 html{
-  background-color: #dddddd;
+  background-image: url("bg.jpg");
 }
 body{
   font-family: sans-serif;
   background-color: white;
   padding-left: 10px;
   padding-right: 10px;
-  margin-left: 30px;
-  margin-right: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
   border: 1px solid #ffd24a;
 }
 #site_header{
@@ -21,9 +21,14 @@ body{
 
 }
 .main_navigation a{
-  border: 1px solid white;
+  border: 2px solid white;
   text-decoration: none;
   color: white;
+  border-spacing: 10px;
+
+}
+.main_navigation a{
+  padding: 3px 20px;
 
 }
 #page_content h2{
